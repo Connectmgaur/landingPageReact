@@ -11,5 +11,6 @@ import Card from "./component/card.jsx";
 import Navbar from "./component/navbar.jsx"
 
 
+
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
