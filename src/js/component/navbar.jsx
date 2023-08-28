@@ -3,28 +3,31 @@ import React from "react";
 
 const Navbar=()=>{
 
-return (<ul className="nav justify-content-end navbar- bg-dark text-white">
-  
-  
-  <span className="navbar-brand" style= {{textAlign: "left corner"}}> Start Bootstrap </span>
-  
+  return (
 
-<li className="nav-item ">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+  <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
   
-  <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
-</li>
-<li className="nav-item ">
-  <a className="nav-link text-white" href="#">About</a>
-</li>
-<li className="nav-item">
-  <a className="nav-link text-white" href="#">Services</a>
-</li>
-<li className="nav-item">
-  <a className="nav-link text-white" href="#">Contact </a>
-</li>
+  <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  );
 
-</ul>
-)
+  };
 
-};
 export default Navbar;

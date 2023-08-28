@@ -10,13 +10,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.footer {
+    background-color:rgb(9, 1, 1);
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 18px;
+  }
 .wrapper{
-   
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: right;
+    padding-left: 80px;
+    padding-right: 80px;
+    width:100%;
 }
 
-.container {
+.card_container {
     margin-left: 10px;
     margin-right: 10px;
 display:grid;
@@ -29,4 +37,13 @@ justify-content: center;
     margin-top: auto;
     margin-left: 1px;
     margin-right: 1px;
+}
+.lead{
+    padding-left: 20px;
+}
+.display-4{
+    padding-left: 20px;
+}
+.description{
+    padding-left: 20px;
 }

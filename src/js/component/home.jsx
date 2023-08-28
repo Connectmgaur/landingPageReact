@@ -6,21 +6,20 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Card from "./card";
 import Navbar from "./navbar";
 import Jumbotron from "./jumbotron";
-
+import Footer from "./footer";
 
 
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="Wrapper">
-
-	
-	<Navbar/>
+		<>
+		<Navbar/>
+		<div className="wrapper">
 	
 	<Jumbotron/>
 	
-		<div ClassName= "container">
+		<div ClassName= "card_container">
 		<div className="row">
           <div className="col-md-3">
 	< Card 
@@ -55,7 +54,10 @@ const Home = () => {
 </div>
 
 </div>
+<Footer/>
 
+
+</>
 	);
 };
 
